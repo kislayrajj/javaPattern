@@ -13,6 +13,7 @@ public class Main {
         Pattern8.printPattern();
         Pattern9.printPattern();
         Pattern10.printPattern();
-        DynamicPattern.printPattern();
+        ButterflyPattern.printButterflyPattern();
+//        DynamicPattern.printPattern();
     }
 }
