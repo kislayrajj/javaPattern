@@ -6,17 +6,17 @@ package patterns;
 //*   *
 //*****
 public class Pattern3 {
-    public static void printPattern(){
+    public static void printPattern() {
         System.out.println("\nHollow Rectangle");
-int n =4;
-int m=5;
+        int n = 4;
+        int m = 5;
 //outer loop
-        for (int i = 1; i<=n; i++){
+        for (int i = 1; i <= n; i++) {
             // inner loop
-            for (int j =1; j<=m; j++){
-                if(i==1 || j ==1 || i ==n || j== m){
+            for (int j = 1; j <= m; j++) {
+                if (i == 1 || j == 1 || i == n || j == m) {
                     System.out.print("*");
-                }else {
+                } else {
                     System.out.print(" ");
                 }
             }
