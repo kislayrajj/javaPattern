@@ -15,6 +15,7 @@ public class Main {
         Pattern10.printPattern();
         ButterflyPattern.printButterflyPattern();
         SolidRhombusPattern.printSolidRhombus();
-        DynamicPattern.printPattern();
+//        DynamicPattern.printPattern();
+        NumberPyramid.printNumberPyramid();
     }
 }
