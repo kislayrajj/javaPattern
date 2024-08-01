@@ -15,7 +15,11 @@ public class Main {
         Pattern10.printPattern();
         ButterflyPattern.printButterflyPattern();
         SolidRhombusPattern.printSolidRhombus();
-//        DynamicPattern.printPattern();
         NumberPyramid.printNumberPyramid();
+        PalindromicPattern.printPalindromicPatter();
+        DiamondPattern.printDiamondPattern();
+        BirdHordePattern.printBirdHordePattern();
+        //dynamicPattern requires input from the user
+        DynamicPattern.printPattern();
     }
 }
